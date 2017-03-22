@@ -27,6 +27,6 @@ Create a first admin with: `cd scripts && go run add_admin.go admin test`
 - get policy: `curl http://admin:test@localhost:3000/admins/policies?policy=policy_test_ecommerce`
 - delete policy: `curl -XDELETE http://admin:test@localhost:3000/admins/policies?policy=policy_test_ecommerce`
 
-**USER_METHODS**
+**USER METHODS**
 - policy list: `curl http://test:test@localhost:3000/users/policies`
 - get policy: `curl http://test:test@localhost:3000/users/policies?policy=policy_test_ecommerce`
